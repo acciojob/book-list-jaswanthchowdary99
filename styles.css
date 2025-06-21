@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    margin-right: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+}
+
+th {
+    background: #f2f2f2;
+}
+
+.delete {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.delete:hover {
+    background: #c0392b;
+}
+
+button {
+    width: 10%;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+}
